@@ -1,0 +1,20 @@
+body {
+    background:darkseagreen url("img/husky.jpg") no-repeat center fixed;
+    background-size: 300px;
+    font-family: monospace;
+}
+
+p {
+    color: rgb(248, 159, 177);
+    background-color: rgb(217, 255, 178);
+    font-family: monospace;
+    padding: 50px;
+}
+
+.special {
+    color: lightskyblue;
+    background: rgb(171, 99, 202); 
+    font-size: 30px;
+    font-family: cursive;
+    margin: 30px;
+}
