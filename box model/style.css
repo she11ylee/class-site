@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color:rgba(95, 158, 160, 0.449)
+}
+
+.content {
+    background-color: teal;
+    color: rgb(240, 128, 128);
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid yellow;
+    margin: 50px auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.border {
+    background-color: teal;
+    color: rgb(240, 128, 128);
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid yellow;
+    margin: 50px;
+    box-sizing: border-box;
+}
