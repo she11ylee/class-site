@@ -12,27 +12,27 @@ p {
 
 body.bg-image1 {
   background: url("img/windows.jpg") no-repeat center fixed; 
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-image2 {
   background: url("../passion-part3/img/windowsblur1.jpg") no-repeat center fixed; 
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-image3 {
   background: url("../passion-part3/img/windowsblur1.jpg") no-repeat center fixed; 
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-image4 {
   background: url("../passion-part3/img/windowsblur1.jpg") no-repeat center fixed; 
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .bg-image5 {
   background: url("../passion-part3/img/windowsblur1.jpg") no-repeat center fixed; 
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .container {
