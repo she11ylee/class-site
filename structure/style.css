@@ -1,0 +1,985 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.main-container {
+
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 40px;
+    gap: 90px;
+    overflow: scroll;
+}
+
+.main-container2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 40px;
+    gap: 90px;
+    align-items:center;
+}
+
+.door1 {
+    background: rgb(57, 50, 39);
+    width: 20%;
+    height: 100%;
+
+}
+
+.door2 {
+    background: rgb(165, 116, 42);
+    width: 10%;
+    height: 100%;
+}
+
+.door3 {
+    background: rgb(85, 47, 32);
+    width: 50%;
+    height: 100%;
+}
+
+.door4 {
+    background: rgb(105, 88, 82);
+    width: 20%;
+    height: 100%;
+}
+
+.door5 {
+    background: rgb(50, 41, 37);
+    width: 40%;
+    height: 100%;
+}
+
+.door6 {
+    background: rgb(149, 90, 67);
+    width: 15%;
+    height: 100%;
+}
+
+.door7 {
+    background: rgb(128, 82, 8);
+    width: 35%;
+    height: 100%;
+}
+
+.door8 {
+    background: rgb(208, 156, 88);
+    width: 25%;
+    height: 100%;
+}
+
+.pl1 {
+    background: rgb(80, 70, 55);
+    width: 25%;
+    height: 40%;
+    margin: 50px;
+    position: relative;
+}
+
+.pr1 {
+    position: relative;
+    background: rgb(80, 70, 55);
+    width: 25%;
+    height: 40%;
+    margin: 20px;
+    bottom: 296.5px;
+    left: 150px;    
+
+}
+
+.bpl1 {
+    background: rgb(80, 70, 55);
+    width: 25%;
+    height: 30%;
+    margin: 50px;
+    bottom: 260px;
+    position: relative;
+}
+
+.bpr1 {
+    background: rgb(80, 70, 55);
+    width: 25%;
+    height: 30%;
+    margin: 50px;
+    bottom: 495px;
+    left: 120px;
+    position: relative;
+}
+
+.knob1 {
+    background: rgb(80, 70, 55);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    bottom: 780px;
+    position:relative;
+    cursor: grab;
+    display: block;
+}
+
+.knob2 {
+    background: rgb(183, 139, 74);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    position:relative;
+    top: 300px;
+    left: 80px;
+    cursor: grab;
+    display: block;
+}
+
+.pl3 {
+    background: rgb(103, 60, 43);
+    width: 30%;
+    height: 40%;
+    margin: 80px;
+    left: 20px;
+    position: relative;
+}
+
+.pr3 {
+    background: rgb(103, 60, 43);
+    position: relative;
+    width: 30%;
+    height: 40%;
+    margin: 100px;
+    bottom: 347px;
+    left: 300px;
+}
+
+.bpl3 {
+    background: rgb(103, 60, 43);
+    width: 30%;
+    height: 20%;
+    margin: 100px;
+    position: relative;
+    bottom: 370px;
+}
+
+.bpr3 {
+    background: rgb(103, 60, 43);
+    width: 30%;
+    height: 20%;
+    margin: 100px;
+    position: relative;
+    bottom: 593.5px;
+    left: 300px;
+}
+
+.knob3 {
+    background: rgb(103, 60, 43);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    position:relative;
+    bottom: 865px;
+    left: 650px;
+    cursor: grab;
+    display: block;
+}
+
+.pl4 {
+    background: rgb(124, 105, 98);
+    width: 30%;
+    height: 45%;
+    margin: 48px;
+    left: 110px;
+    position: relative;
+}
+
+.knob4 {
+    background: rgb(124, 105, 98);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 40px;
+    position:relative;
+    bottom: 10px;
+    left: 210px;
+    cursor: grab;
+    display: block;
+}
+
+.pl5 {
+    background: rgb(68, 57, 52);
+    width: 80%; 
+    height: 45%;
+    position: relative;
+    margin: 55px;
+}
+
+.bpl5 {
+    background: rgb(68, 57, 52);
+    width: 80%; 
+    height: 15%;
+    position: relative;
+    margin: 55px;
+    bottom: -70px;
+}
+
+.bpr5 {
+    background: rgb(68, 57, 52);
+    width: 80%; 
+    height: 10%;
+    position: relative;
+    margin: 55px;
+    bottom: 170px;
+}
+
+.knob5 {
+    background: rgb(68, 57, 52);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position:relative;
+    bottom: 300px;
+    left: -36px;
+    cursor: grab;
+    display: block;
+}
+
+.knob6 {
+    background: rgb(174, 114, 90);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 30px;
+    position: relative;
+    top: 300px;
+    cursor: grab;
+    display: block;
+}
+
+.pl7 {
+    background: rgb(149, 97, 14);
+    width: 30%;
+    height: 40%;
+    position: relative;
+    margin: 70px;
+}
+
+.pr7 {
+    background: rgb(149, 97, 14);
+    width: 30%;
+    height: 40%;
+    position: relative;
+    margin: 70px;
+    bottom: 316.5px;
+    left: 210px;
+}
+
+.bpl7 {
+    background: rgb(149, 97, 14);
+    width: 30%;
+    height: 20%;
+    position: relative;
+    margin: 70px;
+    bottom: 290px;
+}
+
+.bpr7 {
+    background: rgb(149, 97, 14);
+    width: 30%;
+    height: 20%;
+    position: relative;
+    margin: 70px;
+    bottom: 483px;
+    left: 210px;
+}
+
+.knob7 {
+    background: rgb(149, 97, 14);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    position: relative;
+    bottom: 730px;  
+    left: 435px;
+    cursor: grab;
+    display: block;
+}
+
+.pl8 {
+    background: rgb(226, 172, 102);
+    width: 72%;
+    height: 84%;
+    position: relative;
+    margin: 50px;
+}
+
+.knob8 {
+    background: rgb(226, 172, 102);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 20px;
+    position: relative;
+    bottom: 280px;  
+    left: -4px;
+    cursor: grab;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.door9 {
+    background: rgb(128, 8, 8);
+    width: 25%;
+    height: 100%;
+}
+
+.pl9 {
+    background: rgb(145, 16, 16);
+    width: 75%; 
+    height: 83%;
+    position: relative;
+    margin: 55px;
+    bottom: -1px;
+    left: -10px;
+}
+
+.knob9 {
+    background: rgb(145, 16, 16);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 270px;
+    left: 275px;
+    display: block;
+}
+
+.door10 {
+    background: rgb(128, 8, 8);
+    width: 25%;
+    height: 100%;
+}
+
+.pl10 {
+    background: rgb(145, 16, 16);
+    width: 28%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+}
+
+.pr10 {
+    background: rgb(145, 16, 16);
+    width: 28%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+    left: 153px;
+    bottom: 308px;
+}
+
+.bpl10 {
+    background: rgb(145, 16, 16);
+    width: 28%; 
+    height: 34%;
+    position: relative;
+    margin: 55px;
+    bottom: 308px;
+}
+
+.bpr10 {
+    background: rgb(145, 16, 16);
+    width: 28%; 
+    height: 34%;
+    position: relative;
+    margin: 55px;
+    left: 153px;
+    bottom: 578px;
+}
+
+.knob10 {
+    background: rgb(145, 16, 16);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 885px;
+    left: 270px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.door11 {
+    background: rgb(20, 20, 184);
+    width: 25%;
+    height: 100%;
+}
+
+.pl11 {
+    background: rgb(34, 34, 212);
+    width: 28%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+}
+
+.knob11 {
+    background: rgb(34, 34, 212);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 10px;
+    left: -37px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.door12 {
+    background: rgb(246, 238, 0);
+    width: 40%;
+    height: 100%;
+}
+
+.pl12 {
+    background: rgb(255, 249, 79);
+    width: 81%; 
+    height: 55%;
+    position: relative;
+    margin: 55px;
+}
+
+.pr12 {
+    background: rgb(255, 249, 79);
+    width: 81%; 
+    height: 20%;
+    position: relative;
+    margin: 55px;
+    bottom: 6px;
+}
+
+.knob12 {
+    background: rgb(255, 249, 79);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 220px;
+    left: 488px;
+    display: block;
+}
+
+.door13 {
+    background: rgb(246, 238, 0);
+    width: 25%;
+    height: 100%;
+}
+
+.knob13 {
+    background: rgb(255, 249, 79);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: -275px;
+    left: 260px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.door14 {
+    background: rgb(85, 46, 140);
+    width: 15%;
+    height: 100%;
+}
+
+.pl14 {
+    background: rgb(110, 67, 171);
+    width: 30%; 
+    height: 82.5%;
+    position: relative;
+    margin: 55px;
+    left: 22px;
+}
+
+.knob14 {
+    background: rgb(110, 67, 171);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 265px;
+    left: -27px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.door15 {
+    background: rgb(103, 148, 30);
+    width: 25%;
+    height: 100%;
+}
+
+.pl15 {
+    background: rgb(127, 176, 48);
+    width: 28%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+}
+
+.pr15 {
+    background: rgb(127, 176, 48);
+    width: 28%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+    left: 153px;
+    bottom: 308px;
+}
+
+.bpl15 {
+    background: rgb(127, 176, 48);
+    width: 28%; 
+    height: 34%;
+    position: relative;
+    margin: 55px;
+    bottom: 308px;
+}
+
+.bpr15 {
+    background: rgb(127, 176, 48);
+    width: 28%; 
+    height: 34%;
+    position: relative;
+    margin: 55px;
+    left: 153px;
+    bottom: 578px;
+}
+
+.knob15 {
+    background: rgb(127, 176, 48);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 885px;
+    left: 270px;
+    display: block;
+}
+
+.door16 {
+    background: rgb(103, 148, 30);
+    width: 25%;
+    height: 100%;
+}
+
+.pl16 {
+    background: rgb(127, 176, 48);
+    width: 75%; 
+    height: 83%;
+    position: relative;
+    margin: 55px;
+    bottom: -1px;
+    left: -10px;
+}
+
+.knob16 {
+    background: rgb(127, 176, 48);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 270px;
+    left: -43px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.door17 {
+    background: rgb(171, 15, 109);
+    width: 50%;
+    height: 100%;
+}
+
+.pl17 {
+    background: rgb(201, 27, 131);
+    width: 87.5%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+    bottom: -1px;
+    left: -10px;
+}
+
+.pr17 {
+    background: rgb(201, 27, 131);
+    width: 87.5%; 
+    height: 16%;
+    position: relative;
+    margin: 55px;
+    bottom: -1px;
+    left: -10px;
+}
+
+.bpl17 {
+    background: rgb(201, 27, 131);
+    width: 87.5%; 
+    height: 9%;
+    position: relative;
+    margin: 55px;
+    bottom: -1px;
+    left: -10px;
+}
+
+.knob17 {
+    background: rgb(201, 27, 131);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 270px;
+    left: -43px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.door18 {
+    background: rgb(27, 181, 201);
+    width: 23%;
+    height: 100%;
+}
+
+.pl18 {
+    background: rgb(50, 205, 226);
+    width: 72.5%; 
+    height: 30%;
+    position: relative;
+    margin: 55px;
+    bottom: -1px;
+    left: -10px;
+}
+
+.knob18 {
+    background: rgb(50, 205, 226);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: -40px;
+    left: 245px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.door19 {
+    background: rgb(203, 134, 15);
+    width: 25%;
+    height: 100%;
+}
+
+.pl19 {
+    background: rgb(222, 157, 44);
+    width: 75%; 
+    height: 83%;
+    position: relative;
+    margin: 55px;
+    bottom: -1px;
+    left: -10px;
+}
+
+.knob19 {
+    background: rgb(222, 157, 44);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 270px;
+    left: 275px;
+    display: block;
+}
+
+.door20 {
+    background: rgb(203, 134, 15);
+    width: 25%;
+    height: 100%;
+}
+
+.pl20 {
+    background: rgb(222, 157, 44);
+    width: 28%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+}
+
+.pr20 {
+    background: rgb(222, 157, 44);
+    width: 28%; 
+    height: 40%;
+    position: relative;
+    margin: 55px;
+    left: 153px;
+    bottom: 308px;
+}
+
+.bpl20 {
+    background: rgb(222, 157, 44);
+    width: 28%; 
+    height: 34%;
+    position: relative;
+    margin: 55px;
+    bottom: 308px;
+}
+
+.bpr20 {
+    background: rgb(222, 157, 44);
+    width: 28%; 
+    height: 34%;
+    position: relative;
+    margin: 55px;
+    left: 153px;
+    bottom: 578px;
+}
+
+.knob20 {
+    background: rgb(222, 157, 44);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 885px;
+    left: 270px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.red-dot {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 1300px;
+    left: 450px;
+    display: block;
+}
+
+.red-dot2 {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 450px;
+    left: 830px;
+    display: block;
+}
+
+.red-dot3 {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 150px;
+    left: 400px;
+    display: block;
+}
+
+.red-dot4 {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 730px;
+    left: 770px;
+    display: block;
+}
+
+.red-dot5 {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 730px;
+    left: 455px;
+    display: block;
+}
+
+.red-dot6 {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 730px;
+    left: 1028px;
+    display: block;
+}
+
+.red-dot7 {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 400px;
+    left: 834px;
+    display: block;
+}
+
+.red-dot8 {
+    background: rgb(255, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 55px;
+    position: relative;
+    cursor: grab;
+    bottom: 1300px;
+    left: 450px;
+    display: block;
+}
+
+
+
+
+
+
