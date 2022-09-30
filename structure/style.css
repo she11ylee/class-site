@@ -33,6 +33,7 @@ body {
     background: rgb(57, 50, 39);
     width: 20%;
     height: 100%;
+    position: relative;
 
 }
 
@@ -82,8 +83,9 @@ body {
     background: rgb(80, 70, 55);
     width: 25%;
     height: 40%;
-    margin: 50px;
-    position: relative;
+    top: 10%;
+    left: 20%;
+    position: absolute;
 }
 
 .pr1 {
@@ -91,9 +93,9 @@ body {
     background: rgb(80, 70, 55);
     width: 25%;
     height: 40%;
-    margin: 20px;
-    bottom: 296.5px;
-    left: 150px;    
+    top: 10%;
+    right: 20%;
+    position: absolute;  
 
 }
 
@@ -101,19 +103,18 @@ body {
     background: rgb(80, 70, 55);
     width: 25%;
     height: 30%;
-    margin: 50px;
-    bottom: 260px;
-    position: relative;
+    bottom: 10%;
+    left: 20%;
+    position: absolute;
 }
 
 .bpr1 {
     background: rgb(80, 70, 55);
     width: 25%;
     height: 30%;
-    margin: 50px;
-    bottom: 495px;
-    left: 120px;
-    position: relative;
+    bottom: 10%;
+    right: 20%;
+    position: absolute;
 }
 
 .knob1 {
@@ -121,9 +122,9 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    margin: 20px;
-    bottom: 780px;
-    position:relative;
+    top: 45%;
+    left: 5%;
+    position: absolute;
     cursor: grab;
     display: block;
 }
