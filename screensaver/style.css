@@ -41,10 +41,12 @@ body {
 
 .boat {
     position: fixed;
-    bottom: 122px;
+    bottom: 120px;
     left: 0;
     animation: boat-move 15s infinite ease-in-out;
 }
+
+.boat img{animation: boat-shake .8s infinite alternate;}
 
 .fish {
     position: fixed;
@@ -76,7 +78,7 @@ body {
 
 @keyframes boat-move {
     0% {
-        transform: translateX(-300px);
+        transform: translateX(-330px);
     }
     100% {
         transform: translateX(100vw);
@@ -119,3 +121,11 @@ body {
     }
 }
 
+@keyframes boat-shake {
+    0% {
+        transform: translateY(0); 
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
