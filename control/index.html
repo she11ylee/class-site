@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+    <head>
+        <title>control</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="image/favicon.png">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="random">
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/main1.png" width="70px">
+                <img class="body" src="image/body1.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/main2.png" width="70px">
+                <img class="body" src="image/body2.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/face1.png" width="70px">
+                <img class="body" src="image/body3.png" width="50px">
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/face2.png" width="70px">
+                <img class="body" src="image/body4.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/face3.png" width="70px">
+                <img class="body" src="image/body5.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/face4.png" width="70px">
+                <img class="body" src="image/body6.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/main3.png" width="70px">
+                <img class="body" src="image/body7.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/face5.png" width="70px">
+                <img class="body" src="image/body8.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable imposter" src="image/face6final.png" width="70px">
+                <img class="body" src="image/imposter.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/main4.png" width="70px">
+                <img class="body" src="image/body9.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/main5.png" width="70px">
+                <img class="body" src="image/body10.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/face7.png" width="70px">
+                <img class="body" src="image/body11.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/main6.png" width="70px">
+                <img class="body" src="image/body12.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/face8.png" width="70px">
+                <img class="body" src="image/body13.png" width="50px">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="figure">
+                <img class="face draggable" src="image/main7.png" width="70px">
+                <img class="body" src="image/body14.png" width="50px">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="button-wrap">
+            <button onclick="boxToggle()"><strong>DIRECTION</strong></button>
+            <button onclick="box2Toggle()"><strong>HINT</strong></button>
+        </div>
+        
+        <div id="box" class="box active">
+            Take off the mask and find the imposter! You only have 5 chances
+            </div>
+
+        <div id="box2" class="box2 active2">
+            Hint: Imposter has one of its eyes closed 
+            </div>
+
+        <script>
+            function boxToggle() {
+              var box = document.getElementById("box");
+              box.classList.toggle("active");
+            }
+        </script>
+ 
+        <script>
+            function box2Toggle() {
+              var box = document.getElementById("box2");
+              box.classList.toggle("active2");
+            }
+        </script>
+
+<script src="jquery-3.6.1.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="scripts.js"></script>
+
+    </body>
+</html>
