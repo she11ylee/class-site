@@ -43,7 +43,7 @@ body {
     position: fixed;
     bottom: 120px;
     left: 0;
-    animation: boat-move 15s infinite ease-in-out;
+    animation: boat-move 35s infinite ease-in-out;
 }
 
 .boat img{animation: boat-shake .8s infinite alternate;}
