@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Dark Room</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" href="../img/doorfavicon.png">
+    </head>
+    <body style="background-color: rgb(0, 0, 0);">
+
+        <style>
+            :root{
+            cursor: none;
+            --cursorXpos: 50vw;
+            --cursorYpos: 50vh;
+            }
+            :root::before{
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                background: radial-gradient(circle 15em at var(--cursorXpos) var(--cursorYpos), rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+                z-index: 11;
+                pointer-events: none;
+            }
+        
+
+        </style>
+        
+      
+
+            <img class="sign1" src="../img/sign1.png" width="15%"> 
+            
+            <img class="sign2" src="../img/sign2.png" width="15%"> 
+       
+            <img class="sign3" src="../img/sign3.png" width="15%">
+
+            <img class="sign4" src="../img/sign4.png" width="12%">
+        
+            <img class="sign5" src="../img/sign5.png" width="15%">
+        
+            <img class="sign6" src="../img/sign6.png" width="15%">
+
+
+    
+        <div class="main-container2">
+
+            <div class="door11">
+                <div class="pl11"></div>
+                <a href="page8.html" class="knob11"></a>
+            </div>
+        
+            <div class="tape1">
+                <img class="draggable" src="../img/tape1.png" width="45%"></div>
+
+            <div class="tape6">
+                <img class="draggable" src="../img/tape6.png" width="45%"></div>
+
+            <div class="tape4">
+                <img class="draggable" src="../img/tape4.png" width="45%"></div>
+                
+            <div class="tape8">
+                <img class="draggable" src="../img/tape8.png" width="45%"></div>
+
+            <div class="tape9">
+                <img class="draggable" src="../img/tape9.png" width="45%"></div>
+            
+            <div class="tape10">
+                <img class="draggable" src="../img/tape10.png" width="45%"></div>
+                
+            <div class="tape11">
+                <img class="draggable" src="../img/tape11.png" width="45%"></div>   
+                
+                
+                <a href="../index.html" class="red-dot2"></a> 
+           
+        </div>
+
+        <script>
+            function trackMouse(event) {
+                document.documentElement.style.setProperty(
+                    '--cursorXpos', `${event.clientX}px`
+                )
+                document.documentElement.style.setProperty(
+                    '--cursorYpos', `${event.clientY}px`
+                )
+            }
+
+            document.addEventListener('mousemove', trackMouse)
+        </script>
+
+
+        <script src="../jquery-3.6.1.min.js"></script>
+        <script src="../jquery-ui.min.js"></script>
+        <script src="../scripts.js"></script>
+
+        
+
+    </body>
+</html>
