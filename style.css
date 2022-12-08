@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color:white;
+    background-color:rgb(0, 0, 0);
     margin: 0;
 }
 
@@ -34,6 +34,7 @@ a:link {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 
 }
 
@@ -70,7 +71,9 @@ a:link {
     font-size: 100px;
 	font-family: "Space Mono", Icons;
     text-align:center;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    animation: move 5s alternate infinite;
+    overflow: hidden;
   
 }
 
@@ -81,8 +84,28 @@ a:link {
     font-size: 100px;
 	font-family: "Space Mono", Icons;
     text-align:center;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    animation: move2 4s alternate-reverse infinite;
+    overflow:hidden
 
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-30vw);
+    }
+    100% {
+        transform: translateX(30vw);
+    }
+}
+
+@keyframes move2 {
+    0% {
+        transform: translateX(-21.5vw);
+    }
+    100% {
+        transform: translateX(21.5vw);
+    }
 }
 
 .item3 {
@@ -96,93 +119,102 @@ a:link {
     font-family:'Times New Roman', Times, serif
 }
 
+.lower-half {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
 .item4 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: left;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px;
+    
 }
 
 .item5 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
 }
 
 .item6 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: right;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item7 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .item8 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item9 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item10 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item11 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item12 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item13 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item14 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item15 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item16 {
-    height: 3.85%;
+    height: 7.69%;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px;
